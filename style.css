@@ -4,6 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 .container {
@@ -38,14 +40,13 @@ nav li a {
 
 /* Home section styles */
 #home {
-    background-color: #f2f2f2;
     padding: 50px 0;
 }
 
 .profile {
-    float: left;
-    width: 30%;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .profile img {
@@ -53,18 +54,16 @@ nav li a {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-right: 30px;
 }
 
 .intro {
-    float: right;
-    width: 70%;
-    padding-left: 20px;
+    flex: 1;
 }
 
-.intro h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .intro p {
@@ -72,14 +71,16 @@ nav li a {
     line-height: 1.6;
 }
 
-/* About section styles */
-#about {
-    padding: 50px 0;
+.contact {
+    margin-top: 20px;
 }
 
-#about h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.contact p {
+    margin-bottom: 8px;
+}
+
+.contact a {
+    color: #007BFF;
 }
 
 /* Publications section styles */
@@ -89,4 +90,21 @@ nav li a {
 
 #publications h2 {
     font-size: 24px;
-    margin-bottom: 20
+    margin-bottom: 20px;
+}
+
+#publications li {
+    margin-bottom: 20px;
+}
+
+#publications li strong {
+    font-size: 18px;
+}
+
+#publications li p {
+    margin-bottom: 8px;
+}
+
+#publications li a {
+    color: #007BFF;
+}
