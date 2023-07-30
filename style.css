@@ -16,7 +16,31 @@ body {
     padding: 30px;
 }
 
-/* Add styles for the profile photo and name */
+/* Add styles for the contact and profile section */
+#contact-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Add styles for the contact info */
+.contact {
+    flex-basis: 30%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Add styles for the profile section */
+.profile {
+    flex-basis: 65%;
+    text-align: center;
+}
+
 .profile img {
     max-width: 100%;
     border-radius: 50%;
@@ -25,15 +49,13 @@ body {
 }
 
 .profile h1 {
-    text-align: center;
-    margin-top: 10px;
     font-size: 28px;
+    margin-top: 20px;
 }
 
 .profile p {
-    text-align: center;
-    margin-top: 5px;
     font-size: 18px;
+    margin-bottom: 15px;
 }
 
 /* Add styles for the navigation menu */
@@ -94,17 +116,6 @@ section p {
 
 .publication-item li p {
     font-size: 16px;
-}
-
-/* Add styles for the contact section */
-.contact {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0;
-}
-
-.contact p {
-    font-size: 18px;
 }
 
 /* Add styles for the footer */
