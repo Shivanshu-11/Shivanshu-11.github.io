@@ -4,8 +4,8 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
     color: #333;
+    background-color: #f2f2f2;
 }
 
 .container {
@@ -41,70 +41,131 @@ nav li a {
 /* Home section styles */
 #home {
     padding: 50px 0;
+    text-align: center;
 }
 
-.profile {
+.hero-content {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.profile img {
+.hero-content img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin-right: 30px;
 }
 
 .intro {
-    /* Remove the flex property to make the content behave normally */
+    text-align: left;
 }
 
-.intro h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 .intro p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
+/* About section styles */
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.about a {
+    color: #007BFF;
+}
+
+/* Publications section styles */
+.publications {
+    padding: 50px 0;
+}
+
+.publications h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.publication-item {
+    margin-bottom: 30px;
+}
+
+.publication-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.publication-item li {
+    margin-bottom: 10px;
+}
+
+.publication-item li strong {
+    font-size: 18px;
+}
+
+.publication-item li p {
+    font-size: 16px;
+}
+
+.publication-item li a {
+    color: #007BFF;
+}
+
+/* Contact section styles */
 .contact {
-    margin-top: 20px;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .contact p {
-    margin-bottom: 8px;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .contact a {
     color: #007BFF;
 }
 
-/* Publications section styles */
-#publications {
-    padding: 50px 0;
+/* Footer section styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
 }
 
-#publications h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.footer p {
+    margin: 0;
 }
 
-#publications li {
-    margin-bottom: 20px;
-}
+/* Media Queries */
+@media (max-width: 600px) {
+    .hero-content {
+        flex-direction: column;
+        align-items: center;
+    }
 
-#publications li strong {
-    font-size: 18px;
-}
-
-#publications li p {
-    margin-bottom: 8px;
-}
-
-#publications li a {
-    color: #007BFF;
+    .hero-content img {
+        margin-bottom: 20px;
+    }
 }
