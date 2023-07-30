@@ -131,9 +131,9 @@ footer {
 }
 
 
-
+/* 
 /* Add custom style for J1 */
-.j1:before {
+/* .j1:before {
     content: "J1";
     background-color: #007BFF;
     color: #fff;
@@ -141,6 +141,6 @@ footer {
     font-weight: bold;
     padding: 4px 8px;
     border-radius: 4px;
-    margin-right: 8px;
-}
+    margin-right: 8px; */
+} */
 
