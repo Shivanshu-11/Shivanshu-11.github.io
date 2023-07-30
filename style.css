@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #f4f4f4;
 }
 
 .container {
@@ -16,88 +17,57 @@ body {
     padding: 30px;
 }
 
-/* Add styles for the contact and profile section */
-#contact-profile {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Add styles for the contact info */
-.contact {
-    flex-basis: 30%;
+/* Add styles for the hero section */
+.hero {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
 }
 
-.contact p {
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-/* Add styles for the profile section */
-.profile {
-    flex-basis: 65%;
-    text-align: center;
+/* Add styles for the about section */
+.about {
+    text-align: left;
 }
 
-.profile img {
-    width: 150px; /* Set the desired width */
-    height: 150px; /* Set the desired height */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow to the photo */
-}
-
-.profile h1 {
+.about h2 {
     font-size: 28px;
-    margin-top: 20px;
-}
-
-.profile p {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-/* Add styles for the navigation menu */
-header {
-    background-color: #333;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-/* Add styles for the sections */
-section {
-    margin-bottom: 30px;
-}
-
-section h2 {
-    font-size: 24px;
     margin-bottom: 20px;
 }
 
-section p {
-    font-size: 18px;
-    line-height: 1.6;
+/* Add styles for the publications section */
+.publications {
+    text-align: left;
+}
+
+.publications h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .publication-item {
@@ -105,7 +75,7 @@ section p {
 }
 
 .publication-item h3 {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 
@@ -123,13 +93,12 @@ section p {
 }
 
 /* Add styles for the footer */
-footer {
+.footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: #fff;
 }
-
 
 /* 
 /* Add custom style for J1 */
