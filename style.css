@@ -58,7 +58,7 @@ nav li a {
 }
 
 .intro {
-    flex: 1;
+    /* Remove the flex property to make the content behave normally */
 }
 
 .intro h2 {
